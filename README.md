@@ -29,20 +29,34 @@ Pastikan Anda menggunakan versi Termux terbaru dan sudah menginstal paket-paket 
 
 Buka Termux dan jalankan perintah di bawah ini secara berurutan:
 
-```bash
+```
 # Update sistem
 apt update && apt upgrade -y
+```
 
 # Instal Node.js dan library dasar
+```
 pkg install nodejs git -y
+```
 
 # Instal Repositori TUR dan Chromium (Penting untuk Termux)
+```
 pkg install tur-repo -y
 pkg install chromium -y
+```
 
 # Clone atau download script ini
-# git clone <link-repo-anda>
-# cd <nama-folder>
+```
+git clone https://github.com/Fitunnel/wa-termux
+cd /~wa-termux
+```
 
 # Instal dependensi library
+```
 npm install whatsapp-web.js qrcode-terminal
+```
+
+# Jalankan 
+```
+./wa.sh
+```
