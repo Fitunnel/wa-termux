@@ -72,9 +72,6 @@ Jika Anda ingin menghapus script dan seluruh dependensinya dari Termux, jalankan
    npm uninstall whatsapp-web.js qrcode-terminal
    ```
    ```
-   npm uninstall whatsapp-web.js qrcode-terminal
-   ```
-   ```
 pkg uninstall nodejs chromium tur-repo -y
 pkg autoremove
    ```
