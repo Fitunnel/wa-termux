@@ -48,7 +48,7 @@ pkg install chromium -y
 # Clone atau download script ini
 ```
 git clone https://github.com/Fitunnel/wa-termux
-cd /~wa-termux
+cd wa-termux
 ```
 
 # Instal dependensi library
