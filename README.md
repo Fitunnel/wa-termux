@@ -54,6 +54,7 @@ cd wa-termux
 # Instal dependensi library
 ```
 npm install whatsapp-web.js qrcode-terminal
+PUPPETEER_SKIP_DOWNLOAD=true npm install whatsapp-web.js qrcode-terminal
 ```
 
 # Jalankan 
