@@ -60,3 +60,21 @@ npm install whatsapp-web.js qrcode-terminal
 ```
 ./wa.sh
 ```
+
+### 🗑️ Cara Uninstall
+
+Jika Anda ingin menghapus script dan seluruh dependensinya dari Termux, jalankan perintah berikut:
+
+**Hapus folder proyek:**
+   ```
+   cd ~
+   rm -rf wa-termux
+   npm uninstall whatsapp-web.js qrcode-terminal
+   ```
+   ```
+   npm uninstall whatsapp-web.js qrcode-terminal
+   ```
+   ```
+pkg uninstall nodejs chromium tur-repo -y
+pkg autoremove
+   ```
