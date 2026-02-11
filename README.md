@@ -58,7 +58,9 @@ npm install whatsapp-web.js qrcode-terminal
 
 # Jalankan 
 ```
+chmod +x wa.sh
 ./wa.sh
+
 ```
 
 ### 🗑️ Cara Uninstall
